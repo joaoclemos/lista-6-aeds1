@@ -33,7 +33,7 @@ int somaLinha4(int M[5][5])
     int soma = 0;
     for (int j = 0; j < 5; j++)
     {
-        soma += M[4][j];
+        soma += M[3][j];
     }
     return soma;
 }
