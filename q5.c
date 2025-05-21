@@ -33,7 +33,7 @@ int somaLinha4(int M[5][5])
     int soma = 0;
     for (int j = 0; j < 5; j++)
     {
-        soma += M[3][j];
+        soma += M[4][j];
     }
     return soma;
 }
@@ -43,7 +43,7 @@ int somaColuna2(int M[5][5])
     int soma = 0;
     for (int i = 0; i < 5; i++)
     {
-        soma += M[i][1];
+        soma += M[i][2];
     }
     return soma;
 }
