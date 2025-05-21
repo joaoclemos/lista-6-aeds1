@@ -60,15 +60,6 @@ int main()
 {
     int M[5][5];
     preencherMatriz(M);
-    printf("\nMatriz 5x5:\n");
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = 0; j < 5; j++)
-        {
-            printf("%3d ", M[i][j]);
-        }
-        printf("\n");
-    }
     printf("\n%d\n", somaLinha4(M));
     printf("%d\n", somaColuna2(M));
     printf("%d\n", somaDiagonalPrincipal(M));
