@@ -28,22 +28,22 @@ int main()
     int B[4][6];
     int S[4][6];
     int D[4][6];
-    preencherMatriz(A);
-    preencherMatriz(B);
-    for(i=0; i<4; i++)
+    preencherMatriz(4, 6, A);
+    preencherMatriz(4, 6, B);
+    for(int i=0; i<4; i++)
     {
-        for(j=0; j<6; j++)
+        for(int j=0; j<6; j++)
         {
             S[i][j] = A[i][j]+B[i][j];
             D[i][j] = A[i][j]-B[i][j];
-            printf("%d", S[i][j]);
+            printf("%d ", S[i][j]);
         }
     }
-    for(int=0; i<4; i++)
+    for(int i=0; i<4; i++)
     {
-        for(j=0; j<6; j++)
+        for(int j=0; j<6; j++)
         {
-            printf("%d", D[i][j]);
+            printf("%d ", D[i][j]);
         }
     }
     return 0;
