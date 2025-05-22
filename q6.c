@@ -12,7 +12,6 @@ void preencherMatriz(int M[4][4])
             }
         }
     }
-
 }
 void MostrarDiagonalPrincipal(int M[4][4])
 {
@@ -37,17 +36,11 @@ void SomaAbaixoDiagonalPrincipal(int M[4][4])
     }
     printf("%d\n", soma);
 }
-
-
-
 int main()
 {
     int M[4][4];
     preencherMatriz(M);
     SomaAbaixoDiagonalPrincipal(M);
     MostrarDiagonalPrincipal(M);
-
-
-
     return 0;
 }
