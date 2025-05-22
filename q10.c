@@ -23,8 +23,6 @@ void contar_vogais_consoantes(char *str, int *vogais, int *consoantes) {
 int main() {
     char texto[100];
     int vogais, consoantes;
-
-    printf("Digite uma string (pode conter espaços): ");
     fgets(texto, sizeof(texto), stdin);
 
     texto[strcspn(texto, "\n")] = '\0';

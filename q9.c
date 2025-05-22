@@ -26,16 +26,13 @@ void imprimirVetor(int *vetor, int tamanho) {
 int main() {
     int tamanho;
     int *vetor;
-    printf("Digite o tamanho do vetor: ");
     scanf("%d", &tamanho);
     vetor = (int *)malloc(tamanho * sizeof(int));
     if (vetor == NULL) {
-        printf("Erro na alocação de memória!\n");
         return 1;
     }
-    printf("Digite os %d elementos do vetor:\n", tamanho);
+    printf("%d\n", tamanho);
     for (int i = 0; i < tamanho; i++) {
-        printf("Elemento %d: ", i + 1);
         scanf("%d", vetor + i);
     }
     ordenarVetor(vetor, tamanho);
