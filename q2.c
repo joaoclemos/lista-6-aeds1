@@ -29,7 +29,7 @@ int main()
         }
     }
 printf("Menor e maior temperatura: %d e %d\n", menortemp, maiortemp);
-printf("Media da temperatura: %.2f\n", tempmedia);
+printf("Media de temperatura: %.2f\n", tempmedia);
 printf("Numero de dias nos quais a temperatura foi inferior a temperatura media: %d", diasabaixo);
 
 
