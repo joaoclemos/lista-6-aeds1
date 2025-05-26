@@ -31,7 +31,6 @@ int main() {
     if (vetor == NULL) {
         return 1;
     }
-    printf("%d\n", tamanho);
     for (int i = 0; i < tamanho; i++) {
         scanf("%d", vetor + i);
     }
