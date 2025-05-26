@@ -12,7 +12,7 @@ void permutar(char *str, int inicio, int fim)
 {
     if (inicio == fim)
     {
-        printf("%s\n", str);
+        printf("%s ", str);
     }
     else
     {
@@ -30,6 +30,7 @@ int main()
     char str[100];
     scanf("%s", str);
     int n = strlen(str);
+    printf("As permutações da string são:\n");
     permutar(str, 0, n - 1);
     return 0;
 }
