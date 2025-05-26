@@ -29,8 +29,8 @@ int main() {
 
     contar_vogais_consoantes(texto, &vogais, &consoantes);
 
-    printf("%d\n", vogais);
-    printf("%d\n", consoantes);
+    printf("Vogais: %d\n", vogais);
+    printf("Consoantes: %d\n", consoantes);
 
     return 0;
 }
